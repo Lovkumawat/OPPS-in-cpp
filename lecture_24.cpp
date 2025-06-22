@@ -44,7 +44,7 @@ class Base2{
 };
 
     // if we try to change the order such that Base2 class first then Base1 class then result(order) change 
-class Derived : public Base2,public Base1{
+class Derived : public Base1,public Base2{
     int derived1,derived2;
     public:
     // if we try to change the order such that Base2 class first then Base1 class then result(order) remain same 

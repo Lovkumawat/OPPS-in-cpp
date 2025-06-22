@@ -23,7 +23,7 @@ class Derived : public Base1,public Base2{
     public:
     // Derived class overwrites the inherited function
     void greet(){
-         Base1:: greet();
+          Base1:: greet();
         cout<<"Hii I am from Derived class "<<endl;
     }
 

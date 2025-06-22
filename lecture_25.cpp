@@ -32,26 +32,26 @@ class Test{
     //     cout<<"value is a is :"<<a<<endl;
     //     cout<<"value of b is :"<<b<<endl;
     // }
-    // operation 3
+    // // operation 3
     // Test(int i,int j):a(i),b(a+j){
     //     cout<<"Constructor executed"<<endl;
     //     cout<<"value is a is :"<<a<<endl;
     //     cout<<"value of b is :"<<b<<endl;
     // }
-    // opearation 4
+    // // opearation 4
     // Test(int i,int j):b(j),a(i+b){  // it will give garbaje value, because a will be initialize first we change the order 
     //     cout<<"Constructor executed"<<endl; 
     //     cout<<"value is a is :"<<a<<endl;
     //     cout<<"value of b is :"<<b<<endl;
     // }
-    // opeartion 5
+    // // opeartion 5
     //   Test(int i,int j):a(j){  
     //     b=j;
     //     cout<<"Constructor executed"<<endl; 
     //     cout<<"value is a is :"<<a<<endl;
     //     cout<<"value of b is :"<<b<<endl;
     // }
-    // opeartion 6
+    // // opeartion 6
     Test(int i,int j):a(i){  
         b=j;
         cout<<"Constructor executed"<<endl; 
