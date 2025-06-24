@@ -23,7 +23,6 @@ int main(){
    // (*ptr).getData(); // is as good as 
    ptr->getData();
 
-
    // Array of Object 
    Complex *ptr1=new Complex[4];
    ptr1->setData(1,54);
