@@ -12,14 +12,14 @@ public:
 class Derived : public Base {
     // No override possible for static method
     public:
-    // static void show() {
-    //     cout << "Derived class static method\n";
-    // }
+     void show() {
+        cout << "Derived class static method\n";
+    }
 
 };
 
 int main() {
-    Derived::show();  // Inherits Base::show()
+    // Derived::show();  // Inherits Base::show() throw an error 
     Base::show();
     Derived d;
     d.show();

@@ -28,7 +28,7 @@ int main(){
     
     return 0;
 }
-//it sshould be declare inthe public section of the class
+//it should be declare in the public section of the class
 // they are autometically invoked whenever the object is created
 // do not have retun type and they cannot return  values 
 // it can have dedfault argument
